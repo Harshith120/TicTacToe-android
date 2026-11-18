@@ -1,14 +1,15 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.compose.compiler)
 }
 
 android {
-    namespace = "com.example.tictactoe"
+    namespace = "com.HarshithMuthuluri.tictactoe"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.tictactoe"
+        applicationId = "com.HarshithMuthuluri.tictactoe"
         minSdk = 29
         targetSdk = 34
         versionCode = 1
@@ -38,9 +39,6 @@ android {
     }
     buildFeatures {
         compose = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
     }
     packaging {
         resources {

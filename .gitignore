@@ -13,3 +13,22 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# Build files
+.gradle/
+build/
+*/build/
+
+# Local configuration
+local.properties
+
+# JVM crash logs
+hs_err_pid*.log
+
+# OS files
+.DS_Store
+Thumbs.db
